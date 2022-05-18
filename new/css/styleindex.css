@@ -1,0 +1,465 @@
+/*css for entire code*/
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 0;
+    margin: 0 0;
+}
+.container
+{
+   /* border: 1px solid blue;*/
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+h2
+{
+    color: chocolate;
+}
+
+.img.responsive
+{
+    width: 20%;
+}
+
+.img-curve
+{ 
+    border-radius: 5px;
+}
+.btn-style
+{
+    padding: 0.5%;
+    font-size: large;
+    border: none;
+    background-color:black;
+    color:antiquewhite;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+.btn-style:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.text-center
+{
+    text-align:center;
+}
+
+/*css for navigation bar section*/
+
+.navbar
+{
+    background-color: #c2f5f5;
+}
+.text-right
+{
+    text-align: right;
+}
+.menu
+{
+    line-height: 80px;
+}
+
+.menu ul
+{
+    list-style-type:none;
+    
+}
+.menu ul li
+{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+.clearfix
+{
+    clear: both;
+    float: none;
+}
+.logo
+{
+   /* border: 1px solid red;*/
+    width: 9%;
+    float: left;
+}
+
+.logo img
+{
+    width: 100%;
+}
+.menu ul li a
+{
+    color:red;
+    text-decoration: none;
+    
+
+}
+.menu ul li a:hover
+{
+    color: rgb(59, 115, 218);
+}
+
+/*css for search section*/
+
+.foodsearch 
+{
+    background-image: url(../images/1324879.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-position: center;
+    
+}
+
+
+.foodsearch input[type="search"]
+{
+    width: 40%;
+    padding: 0.5%;
+    font-size: large;
+    border: none;
+    border-radius: 4px;
+}
+.foodsearch input[type="submit"]
+{
+    padding: 0.5%;
+    font-size: large;
+    border: none;
+    background-color:brown;
+    color:aqua;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.foodsearch input[type="submit"]:hover
+{
+    color: green;
+    background-color: azure;
+}
+
+/*css for catering categories*/
+
+.categories
+{
+    padding-top: 5% ;
+    padding-bottom: 5%;
+    
+}
+
+.box-3
+{
+    /*border: 1px solid red;*/
+    width: 27%;
+    float: left;
+    margin: 3%;
+   
+}
+.box-3-img
+{
+    width: 100%;
+    float: left;
+    margin-bottom: 5%;
+}
+
+h3
+{
+    text-align: center;
+    font-family:cursive;
+    font-size:2rem;
+    color:goldenrod;
+    margin-bottom: 10%;
+}
+
+.float-text
+{
+    left: 50%;
+    font-family: cursive;
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+    border: 3px solid black;
+    padding: 2%;
+
+}
+
+.float-text:hover
+{
+    color: white;
+    background-color: black;
+}
+
+/*css for food menu section*/
+
+
+.foodmenu
+{
+    background-color: #c2f5f5;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.food-menu-box
+{
+    /*border: 1px solid blueviolet;*/
+    border-radius: 8px;
+    width: 42%;
+    float: left;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: antiquewhite;
+}
+
+.food-menu-box2
+{
+    /*border: 1px solid blueviolet;*/
+    border-radius: 8px;
+    width: 42%;
+    float: right;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    background-color: antiquewhite;
+}
+
+.foodmenu h2
+{
+    text-align: center;
+}
+
+.food-menu-img
+{
+    float: left;
+    width: 32%;
+    
+}
+
+.food-menu-desc
+{
+    margin-left:8%;
+    float: left;
+}
+
+.food-menu-desc h4
+{
+    font-size: 1.5rem;
+}
+
+.float-img
+{
+    width: 100%;
+    float: left;
+
+}
+
+.package-price
+{
+    font-size: 1.1rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.package-desc
+{
+    font-size: 1rem;
+}
+
+/*css for social section*/
+
+.social ul
+{
+    list-style-type:none;
+}
+
+.social ul li
+{
+    display:inline;
+    padding:1%;
+}
+
+
+/*css for mobile readiness*/
+
+@media only screen and (max-width:768px)
+{ 
+    .logo
+    {
+        width: 50%;
+        float: none;
+        margin-left: 25%;
+    }
+
+    .menu ul
+    {
+        text-align: center ;
+    }
+    .foodsearch input[type="search"]
+    {
+        width: 60%;
+    }
+
+    .box-3
+    {
+        width: 95%;
+        margin-top: 3%;
+    }
+
+    .categories h2
+    {
+        padding-top: 2%;
+        padding-bottom: 5%;
+    }
+
+    .foodmenu
+    {
+        padding: 15% 0;
+    }
+
+    .foodmenu h2
+    {
+        margin-bottom: 5%;
+    }
+
+    .food-menu-box
+    {
+        width: 95%;
+    }
+
+    .food-menu-box2
+    {
+        width: 95%;
+    }
+
+    .food-menu-desc
+    {
+        float: right;
+        width: 53%;
+        padding: 2%;
+    }
+     
+    .food-menu-img
+    {
+        float: left;
+        width: 28%;
+        padding: 3%;
+    }
+
+    .food-menu-desc h4 
+    {
+        font-size: 1.2rem;
+    }
+
+}
+
+/*css for order form*/
+
+/*.order-form-box
+{ 
+    border: 1px solid black;
+    padding: 5%;
+    margin-left:10% ;
+    margin-right: 2%;
+    width: 70%;
+    margin-top: 7%;
+    
+}*/
+
+.order-form
+{
+    border: 1px solid red;
+    width: 30%;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+input
+{
+    padding: 0.6%;
+}
+
+.form-box
+{
+    background-color: rgb(201, 247, 231);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 2%;
+}
+
+.form
+{
+    padding: 2%;
+}
+
+/*css for icon section*/
+ 
+.icon
+{
+    padding: 1%;
+    background-color: aquamarine;
+    
+}
+
+.font
+{
+    font-family: cursive;
+    font-size: 3rem;
+}
+
+.leftcolumn
+{
+  /* border: 1px solid red;*/
+    width: 35%;
+    float: left;
+    
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.rightcolumn
+{
+  
+ /*  border: 1px solid black;*/
+    width: 35%;
+    float: right;
+   
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+h4
+{
+    font-family: cursive;
+    color:lightslategray;
+}

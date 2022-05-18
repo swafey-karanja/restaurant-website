@@ -1,0 +1,156 @@
+.wrapper
+{
+   /* border: 1px solid blue;*/
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-align
+{
+    text-align: center;
+}
+
+.clearfix
+{
+    float: none;
+    clear: both;
+}
+
+/*css for menu*/
+
+.menu
+{
+    text-align: center;
+}
+
+.menu ul
+{
+    list-style-type: none;
+}
+
+.menu ul li
+{
+    display: inline;
+    padding: 1%;
+    
+}
+
+.menu ul li a
+{
+    text-decoration: none;
+    color:red;
+    font-weight: bold;
+}
+
+.menu ul li a:hover
+{
+    color:brown;
+}
+
+.text-success
+{
+    text-align: center;
+    color: green;
+}
+
+.text-fail
+{
+    text-align: center;
+    color: red;
+}
+/*css for main*/
+
+.main
+{
+    padding: 2% 0;
+    background-color: darkgrey;
+}
+
+.col
+{
+    width: 15%;
+    padding: 1%;
+    background-color: antiquewhite;
+    float: left;
+    margin: 0 1%;
+}
+
+
+/*css for footer*/
+
+.footer
+{
+    background-color: aqua
+}
+
+/*css for admin manager*/
+.table
+{
+    width: 100%;
+}
+
+.tbl-30
+{
+    width: 30%;
+}
+table tr th
+{
+    border-bottom: 1px solid red;
+    
+    text-align: left;
+}
+
+table td
+{
+    padding: 0.5%;
+}
+
+.btn-add
+{
+    background-color:black;
+    padding: 0.3%;
+    color: azure;
+    text-decoration: none;
+    
+}
+
+.btn-add:hover
+{
+    font-weight: bold;
+}
+
+.btn-update
+{
+    color:beige;
+    text-decoration: none;
+    background-color: black;
+    padding: 0.2%;
+}
+
+.btn-update:hover
+{
+    background-color: beige;
+    color: black;
+}
+
+.btn-delete
+{
+    color:beige;
+    text-decoration: none;
+    background-color: black;
+    padding: 0.2%;
+}
+
+.btn-delete:hover
+{
+    background-color: beige;
+    color: black;
+}
+
+.log-in
+{
+    border: 1px solid green;
+    width: 20%;
+    margin: 10% auto;
+}
